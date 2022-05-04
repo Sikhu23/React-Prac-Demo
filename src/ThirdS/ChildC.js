@@ -10,6 +10,8 @@ export default class ChildC extends Component {
         value is value1 :- {this.props.senil.value1}
         <br/>
         value is value2 :- {this.props.senil.value2}
+        <br/>
+        value is a :- {this.props.senil1}
         <p> Add--  {this.props.senil.value1+this.props.senil.value2} </p>
         <p> Subs--  {this.props.senil.value1-this.props.senil.value2} </p>
         <p> Mul--  {this.props.senil.value1*this.props.senil.value2} </p>

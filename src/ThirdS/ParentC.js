@@ -12,11 +12,13 @@ export default class ParentC extends Component {
 
     }
 
+     a=8;
+
     value1get=()=>{
-        this.setState({value1:10})
+        this.setState({value1:this.state.value1+1})
     }
     value2get=()=>{
-        this.setState({value2:5})
+        this.setState({value2:this.state.value2+1})
     }
     check=()=>{
         console.log(this.state)
@@ -35,13 +37,14 @@ export default class ParentC extends Component {
 
           <input type="number" ></input>
           <button onClick={this.value2get}>Value2</button>
+          <button onClick={()=>this.a=10}>A</button>
 
 
           <button onClick={this.check}>Check</button>
           <hr/>
-          <ChildF senil={this.state}/>
+          <ChildF senil={this.state} senil1={this.a}/>
           <hr/>
-          <ChildC senil={this.state}/>
+          <ChildC senil={this.state} senil1={this.a}/>
       </div>
     )
   }
