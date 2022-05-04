@@ -4,7 +4,7 @@ export default class StateClass extends Component {
 
     constructor(){
         super();
-        this.state={name:"100 white"}
+        this.state={val:"100 white" , count:0}
         
 
     }

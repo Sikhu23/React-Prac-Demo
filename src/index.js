@@ -12,12 +12,13 @@ import VariablesC from './SecondS/VariablesC';
 import VariablesF from './SecondS/VariablesF';
 import StateClass from './SecondS/StateClass';
 import UseStateHook from './SecondS/UseStateHook';
+import ParentC from './ThirdS/ParentC';
 
 
 
  ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <UseStateHook />
+    <ParentC />
   </React.StrictMode>
 );;
 
