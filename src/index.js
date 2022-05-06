@@ -13,13 +13,15 @@ import VariablesF from './SecondS/VariablesF';
 import StateClass from './SecondS/StateClass';
 import UseStateHook from './SecondS/UseStateHook';
 import ParentC from './ThirdS/ParentC';
+import MountingClass from './FourthS/MountingClass';
+import Updating from './FifthS/Updating';
 
 
 
  ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <ParentC />
-  </React.StrictMode>
+  
+    <Updating />
+ 
 );;
 
 
