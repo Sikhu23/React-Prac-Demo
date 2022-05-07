@@ -15,12 +15,14 @@ import UseStateHook from './SecondS/UseStateHook';
 import ParentC from './ThirdS/ParentC';
 import MountingClass from './FourthS/MountingClass';
 import Updating from './FifthS/Updating';
+import Msin from './SixthS/Msin';
+import { BrowserRouter } from 'react-router-dom';
 
 
 
  ReactDOM.createRoot(document.getElementById('root')).render(
   
-    <Updating />
+   <BrowserRouter> <Msin /> </BrowserRouter>
  
 );;
 

@@ -17,6 +17,7 @@ export default class Updating extends Component {
 
     shouldComponentUpdate(nextProps, nextState){
         console.log("shouldComponentUpdate ",this.state.name,nextState);
+       
         return nextState.name<4 ||  nextState.name>18? true:false
     }
 
