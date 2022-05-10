@@ -17,12 +17,14 @@ import MountingClass from './FourthS/MountingClass';
 import Updating from './FifthS/Updating';
 import Msin from './SixthS/Msin';
 import { BrowserRouter } from 'react-router-dom';
+// import Home from './EighthS/Home';
+import Home from './SeventhS/Home';
 
 
 
  ReactDOM.createRoot(document.getElementById('root')).render(
   
-   <BrowserRouter> <Msin /> </BrowserRouter>
+   <BrowserRouter>< Home/></BrowserRouter>  
  
 );;
 
