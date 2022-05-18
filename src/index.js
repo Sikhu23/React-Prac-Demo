@@ -19,12 +19,17 @@ import Msin from './SixthS/Msin';
 import { BrowserRouter } from 'react-router-dom';
 // import Home from './EighthS/Home';
 import Home from './SeventhS/Home';
+import Mount from './NinethS/Mount';
+import UseStatees from './Tenth/UseStatees';
+import UseEffec from './Tenth/UseEffec';
 
 
 
  ReactDOM.createRoot(document.getElementById('root')).render(
   
-   <BrowserRouter>< Home/></BrowserRouter>  
+   <BrowserRouter>< UseEffec/></BrowserRouter> 
+   
+   
  
 );;
 

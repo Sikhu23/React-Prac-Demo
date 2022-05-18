@@ -5,15 +5,15 @@ export default class Home extends Component {
     constructor(){
         super()
         console.log("Home Constructor")
-        this.newf="";
+        // this.newf="";
     }
 
     componentDidMount(){
         console.log("Home componentDidMount")
-         this.newf=setInterval(()=>{
-            console.log("1");
+        //  this.newf=setInterval(()=>{
+        //     console.log("1");
 
-        },1000)
+        // },1000)
 
        
     }
@@ -29,7 +29,7 @@ export default class Home extends Component {
 
     componentWillUnmount(){
         console.log("Home componentWillUnmountS")
-        clearInterval(this.newf)
+        // clearInterval(this.newf)
     }
   render() {
     return (
