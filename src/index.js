@@ -22,12 +22,14 @@ import Home from './SeventhS/Home';
 import Mount from './NinethS/Mount';
 import UseStatees from './Tenth/UseStatees';
 import UseEffec from './Tenth/UseEffec';
+import Memi from './Eleventh/Memi';
+import Ref from './Eleventh/Ref';
 
 
 
  ReactDOM.createRoot(document.getElementById('root')).render(
   
-   <BrowserRouter>< UseEffec/></BrowserRouter> 
+   <BrowserRouter>< Ref/></BrowserRouter> 
    
    
  
